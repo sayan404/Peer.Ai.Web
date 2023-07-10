@@ -67,7 +67,7 @@ function App() {
          <iframe
            width='100%'
           height = '100%'
-          src={`https://www.youtube.com/embed/6IE12DAvZ30`}
+          src={`https://www.youtube.com/embed/txWAGhqS834`}
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -81,7 +81,7 @@ function App() {
           </div>
           <div className='seperator'></div>
           <div className='socialHandels'>
-            <a href="https://github.com/sayan404" rel="noopener">
+            <a href="https://github.com/sd012gfhkhhvh/Peer.AI" rel="noopener">
               <GitHubIcon
                 sx={{
                   fontSize: 50,
