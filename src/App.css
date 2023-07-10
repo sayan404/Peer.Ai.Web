@@ -61,3 +61,14 @@ img{
   background-color: rgb(17, 3, 45);
   border-radius: 50px;
 }
+.taglines{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  color: white;
+  font-size: 30px;
+  color: skyblue;
+}
+.taglinestwo{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  color: white;
+  font-size: 25px;
+}

@@ -5,6 +5,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import Box from '@mui/material/Box';
 import PropTypes from "prop-types";
 import { useTheme } from '@mui/material/styles';
+import Button from '@mui/material-next/Button';
+import SendIcon from '@mui/icons-material/Send';
+
 function App() {
   const theme = useTheme();
 
@@ -21,17 +24,13 @@ function App() {
           maxWidth: 650,
           height: '40%',
           maxHeight: 400,
-          backgroundColor: 'primary.dark',
           left: '10%',
           top: '300px',
-          backdropFilter: 'blur(30px)',
           transition: '0.5s ease',
           position: 'absolute',
-          opacity: [0.9, 0.8, 0.7],
           borderRadius: '10px',
           '&:hover': {
-            transition: '0.5s ease',
-            backgroundColor: 'primary.main',
+            transition: '0.5s ease'
           },
           [theme.breakpoints.down('sm')]: {
             width: '90%', // Adjust the width for smaller screens
@@ -39,7 +38,9 @@ function App() {
           },
         }}
       >
-
+        <p className='taglines'>Peer.Ai </p>
+        <p className='taglinestwo'>Enhances Chrome with Voice Navigation, Smart Search, Q&A, and Page Summaries</p>
+        <a href="https://github.com/sd012gfhkhhvh/Peer.AI" rel="noopener"><Button variant="contained" color="success" endIcon={<SendIcon />}>GitHub</Button></a>
       </Box>
       <Box
         sx={{
@@ -47,16 +48,13 @@ function App() {
           maxWidth: 370,
           height: '100%',
           maxHeight: 230,
-          backgroundColor: 'primary.dark',
           right: '10vw',
           top: '60px',
           transition: '0.5s ease',
           position: 'absolute',
-          opacity: [0.9, 0.8, 0.7],
           borderRadius: '10px',
           '&:hover': {
-            transition: '0.5s ease',
-            backgroundColor: 'primary.main',
+            transition: '0.5s ease'
           },
           [theme.breakpoints.down('sm')]: {
             width: '90%', // Adjust the width for smaller screens
@@ -64,9 +62,9 @@ function App() {
           },
         }}
       >
-         <iframe
-           width='100%'
-          height = '100%'
+        <iframe
+          width='100%'
+          height='100%'
           src={`https://www.youtube.com/embed/txWAGhqS834`}
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -74,6 +72,7 @@ function App() {
           title="Embedded youtube"
         />
       </Box>
+
       <footer>
         <div className='footer'>
           <div className='img'>
