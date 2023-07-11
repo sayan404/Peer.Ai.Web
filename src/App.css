@@ -61,14 +61,17 @@ img{
   background-color: rgb(17, 3, 45);
   border-radius: 50px;
 }
+.textFields{
+  padding-left: 30px;
+}
 .taglines{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   color: skyblue;
 }
 .taglinestwo{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
 }
