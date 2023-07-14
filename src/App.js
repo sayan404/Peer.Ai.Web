@@ -40,7 +40,7 @@ function App() {
       >
         <p className='taglines'>Peer.Ai </p>
         <p className='taglinestwo'>Enhances Chrome with Voice Navigation, Smart Search, Q&A, and Page Summaries</p>
-        <a href="https://github.com/sd012gfhkhhvh/Peer.AI" rel="noopener"><Button variant="contained" color="success" endIcon={<SendIcon />}>GitHub</Button></a>
+        <a href="https://github.com/sayan404/Peer.Ai" rel="noopener"><Button variant="contained" color="success" endIcon={<SendIcon />}>GitHub</Button></a>
       </Box>
       <Box
         sx={{
@@ -80,7 +80,7 @@ function App() {
           </div>
           <div className='seperator'></div>
           <div className='socialHandels'>
-            <a href="https://github.com/sd012gfhkhhvh/Peer.AI" rel="noopener">
+            <a href="https://github.com/sayan404/Peer.Ai" rel="noopener">
               <GitHubIcon
                 sx={{
                   fontSize: 50,
